@@ -23,7 +23,10 @@ public class PaymentController {
             return new CommonResult(200,"插入数据库成功",result);
         }else {
             return new CommonResult(444,"插入数据库失败",null);
+<<<<<<< HEAD
 //            return new CommonResult(444,"插入数据库失败",null);
+=======
+>>>>>>> 4430243ee5e141143813e1a5d58431bf3dbc8822
         }
     }
     @GetMapping(value = "/payment/get/{id}")
